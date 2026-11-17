@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                         }  else {
                             wagaOceny = "0";
                         }
+                        String tresc = "ocena"
 
                         arrayListOceny.add("Ocena: " + ocena + ", przedmiot: " + przedmiot + ", waga: " + wagaOceny);
                         arrayAdapterOceny.notifyDataSetChanged();
